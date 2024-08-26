@@ -222,7 +222,8 @@ inline bool isWin11OrGreater()
 #include <QtX11Extras/QX11Info>
 #endif
 #ifdef QT_VERSION_QT6
-#include <QtGui/private/qtx11extras_p.h>
+// #include <QtGui/private/qtx11extras_p.h>
+#include <QtX11Extras/qx11info_x11.h>
 #endif
 #include <X11/Xlib.h>
 #include <X11/cursorfont.h>

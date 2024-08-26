@@ -20,6 +20,8 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
+set(QT_VERSION_MAJOR 6)
+
 target_sources(${PROJECT_NAME} PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/src/qgoodwindow.cpp ${CMAKE_CURRENT_LIST_DIR}/src/qgoodwindow.h
     ${CMAKE_CURRENT_LIST_DIR}/src/qgoodstateholder.cpp ${CMAKE_CURRENT_LIST_DIR}/src/qgoodstateholder.h
